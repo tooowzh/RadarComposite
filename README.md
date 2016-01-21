@@ -14,11 +14,14 @@ License: LGPLv3
 We're actively moving this project to completely free-of-use. We're actively removing any components that rely on closed source product.
 
 On-going task:
-* Migrating to SBT. Handle Python codes in SBT tasks
+* Migrating to SBT. <del> Handle Python codes in SBT tasks </del>
+* Use streaming API with customized radar data feeding.
 * Adopting Py-ART and wradlib to support more data type
 * Providing quality control and data correction.
-* 3D wind field retrieval.
-* Increase compatibility on Windows platform. Utilizing docker and Hyper-V to adapt any software from Linux
+* <del>3D wind field retrieval.</del>
+* Add EVAD and GBVTD to single radar algorithms
+* Increase compatibility on Windows platform.
+* Decode NEXRAD using netcdf4-java
 * Increase GIS compatibility on Linux
 
 **This a data-processing framework, thus there is no visualization in this system. We have no plan to add any visualization function in this framework.**
