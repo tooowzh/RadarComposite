@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/striges/RadarComposite.svg?branch=master)](https://travis-ci.org/striges/RadarComposite)
 
+New Python version is coming!
+
 ## Highlights:
 * Big Data ready: Apache Spark based parallel engine with Apache Hadoop based storage.
 * Cross-platform: run on Windows, Mac and Linux
@@ -16,14 +18,14 @@ We're actively moving this project to completely free-of-use. We're actively rem
 On-going task:
 * Migrating to SBT. <del> Handle Python codes in SBT tasks </del>
 * Use streaming API with customized radar data feeding.
-* Adopting Py-ART and wradlib to support more data type
+* <del>Adopting Py-ART and wradlib to support more data type.</del>
 * Providing quality control and data correction.
 * <del>3D wind field retrieval.</del>
 * Add EVAD and GBVTD to single radar algorithms
 * Increase compatibility on Windows platform.
 * Decode NEXRAD using netcdf4-java
-* Increase GIS compatibility on Linux
-
+* <del>Increase GIS compatibility on Linux.</del>
+ 
 **This a data-processing framework, thus there is no visualization in this system. We have no plan to add any visualization function in this framework.**
 
 To load radar data into GIS, please check Radar Toolkit for ArcGIS.
